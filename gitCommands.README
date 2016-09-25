@@ -1,0 +1,59 @@
+1) Initializing git
+> git init
+
+2) Checking Status
+> git status
+
+3) Adding Changes
+> git add octocat.txt  [for folder like css git add css\]
+
+4) Commiting changes
+> git commit -m "Add cute octocat story"  
+
+5) Adding same extension Files
+> git add '*.txt'
+
+6) Commiting and adding name
+> git commit -m 'Add all the octocat txt files'
+
+7) Check History 
+> git log
+
+8) Remote Repositories setup
+> git remote add origin https://github.com/try-git/try_git.git
+
+9) if repository already exist then we can push changes directly
+> git push -u origin master
+
+10) Pulling latest updates
+> git pull origin master
+
+11) To check if there is some Differences
+> git diff HEAD
+
+12) if there is difference we can add it on stage
+> git add octofamily/octodog.txt
+
+13) Once added check for difference again
+> git diff --staged
+
+14) if we want to remove or reset changes
+> git reset octofamily/octodog.txt
+
+15) Creating Branch 
+> git branch branchName
+
+16) Switching Branches
+> git checkout branchName
+
+17) Removing All The Things
+> git rm '*.txt'
+
+18) Commiting all changes
+> git commit -m "Remove all the cats"
+
+19) Preparing to Merge
+> git merge branchName
+
+20) Keeping Things Clean
+> git branch -d clean_up
