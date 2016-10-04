@@ -87,27 +87,7 @@ h3 {
     top: -55px;
 }
 .gradientTop {
-    background: -moz-linear-gradient(235deg, rgba(71, 1, 50, 1) 0%, rgba(71, 1, 50, 1) 3%, rgba(163, 31, 51, 1) 54%, rgba(97, 15, 28, 1) 89%, rgba(97, 15, 28, 1) 100%);
-    /* ff3.6+ */
-    
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(97, 15, 28, 1)), color-stop(11%, rgba(97, 15, 28, 1)), color-stop(46%, rgba(163, 31, 51, 1)), color-stop(97%, rgba(71, 1, 50, 1)), color-stop(100%, rgba(71, 1, 50, 1)));
-    /* safari4+,chrome */
-    
-    background: -webkit-linear-gradient(235deg, rgba(71, 1, 50, 1) 0%, rgba(71, 1, 50, 1) 3%, rgba(163, 31, 51, 1) 54%, rgba(97, 15, 28, 1) 89%, rgba(97, 15, 28, 1) 100%);
-    /* safari5.1+,chrome10+ */
-    
-    background: -o-linear-gradient(235deg, rgba(71, 1, 50, 1) 0%, rgba(71, 1, 50, 1) 3%, rgba(163, 31, 51, 1) 54%, rgba(97, 15, 28, 1) 89%, rgba(97, 15, 28, 1) 100%);
-    /* opera 11.10+ */
-    
-    background: -ms-linear-gradient(235deg, rgba(71, 1, 50, 1) 0%, rgba(71, 1, 50, 1) 3%, rgba(163, 31, 51, 1) 54%, rgba(97, 15, 28, 1) 89%, rgba(97, 15, 28, 1) 100%);
-    /* ie10+ */
-    
-    background: linear-gradient(215deg, rgba(71, 1, 50, 1) 0%, rgba(71, 1, 50, 1) 3%, rgba(163, 31, 51, 1) 54%, rgba(97, 15, 28, 1) 89%, rgba(97, 15, 28, 1) 100%);
-    /* w3c */
-    
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#470132', endColorstr='#610F1C', GradientType=0);
-    /* ie6-9 */
-    
+    background:url("../images/logo.png");    
     min-height: 100%;
 }
 .leftMarker {
@@ -176,6 +156,7 @@ textarea {
 
 a{
   text-decoration: none;
+  color:black;
  }
  
  .topHeader{
@@ -184,6 +165,7 @@ a{
 	background: rgba(255,255,255,0.7);
 	border-radius: 150px;
 	margin:auto;
+	display:none;
 }
 
 .innerHeader{
@@ -202,26 +184,34 @@ a{
 .space{
 	height:10px;
 }
-.headerNavBar{
-	margin: auto;
-    width: 500px;
-    height: 35px;
+.headerNavBar {
+    /* margin: auto; */
+    width: 55px;
+    /* height: 35px; */
     background: white;
     padding: 10px;
-    border-radius: 12px;
-	margin-top:40px;
+    /* border-radius: 12px; */
+    margin-top: 40px;
+    float: left;
+    text-align: left;
+    /* margin-left: 10px; */
+    font-size: 12px;
+    position: fixed;
 }
-.headerNavBar > ul{
-	list-style-type: none;
+
+
+.headerNavBar > ul {
+    list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    text-align: center;
+    text-align: left;
 }
 
-.headerNavBar > ul > li{
-	float: left;
-    width: 70px;	
+
+.headerNavBar > ul > li {
+    /* float: left; */
+    width: 70px;
 }
 
 
