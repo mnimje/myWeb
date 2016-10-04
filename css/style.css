@@ -29,7 +29,8 @@ html {
 	-webkit-user-select: none;  /* Chrome all / Safari all */
   -moz-user-select: none;     /* Firefox all */
   -ms-user-select: none;      /* IE 10+ */
-  user-select: none;          /* Likely future */      
+  user-select: none;          /* Likely future */  
+-webkit-transition: all 500ms;  
 }
 .commonPos {
     position: relative;
@@ -81,6 +82,8 @@ h3 {
     padding: 50px 80px;
     text-align: justify;
     position: relative;
+	z-index:-1;
+	-webkit-transition: all 500ms;
 }
 .bgMedium {
     width: 80%;
@@ -198,6 +201,8 @@ a{
     /* margin-left: 10px; */
     font-size: 12px;
     position: fixed;
+	-webkit-transition: all 500ms;
+	z-index: 999;
 }
 
 
