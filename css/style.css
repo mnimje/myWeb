@@ -54,6 +54,7 @@ html {
 }
 .caption {
     position: absolute;
+    display: block;
     left: 0;
     top: 70%;
     width: 100%;
