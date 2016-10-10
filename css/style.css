@@ -88,7 +88,19 @@ html {
     background-image: url("../images/15.png");    
 }
 .myExperience{
-    background-image: url("../images/21.png");    
+    background-image: url("../images/16.png");    
+}
+.myEducation{
+    background-image: url("../images/18.png");    
+}
+.myPortfolio{
+    background-image: url("../images/19.png");    
+}
+.myContact{
+    background-image: url("../images/22.png");    
+}
+.myFeedback{
+    background-image: url("../images/3.png");    
 }
 
 h3 {
