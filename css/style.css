@@ -41,16 +41,19 @@ html {
     background-size: cover !important;
 }
 .bgimg-1 {
-    background-image: url("../images/img_parallax.jpg");
+    background-image: url("../images/logo.png");
     min-height: 100%;
+    z-index: 1;
 }
 .bgimg-2 {
-    background-image: url("../images/img_parallax2.jpg");
+    background-image: url("../images/logo.png");
     min-height: 400px;
+    z-index: 0;
 }
 .bgimg-3 {
     background-image: url("../images/img_parallax3.jpg");
     min-height: 400px;
+    z-index: 0;
 }
 .caption {
     position: absolute;
@@ -122,11 +125,25 @@ h3 {
     width: 80%;
     margin: auto;
     top: -55px;
+    z-index:0;
 }
 .gradientTop {
     background:url("../images/logo.png");    
     min-height: 100%;
 }
+
+/*MayankN today*/
+.gradient2 {
+    background:url("../images/logo_1.png");    
+    min-height: 400px;
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .leftMarker {
     position: absolute;
     /*border: 1px solid rgba(255, 255, 255, .5);*/
